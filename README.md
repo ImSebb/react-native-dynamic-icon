@@ -94,6 +94,3 @@ Returns a promise which resolves to a boolean.
 
 Returns a callback with an object containing the icon name. Example: `{iconName: 'default'}`.
 
-## License
-
-[MIT](https://github.com/ImSebb/react-native-dynamic-app-icon/blob/main/LICENSE)
