@@ -1,0 +1,26 @@
+apply plugin: 'com.dynamicappicon'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion 28.0.3
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+    sourceSets {
+        main {
+            java {
+                srcDir "src"
+            }
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+' 
+}
