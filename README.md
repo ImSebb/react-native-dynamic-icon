@@ -96,4 +96,4 @@ Returns a callback with an object containing the icon name. Example: `{iconName:
 
 ## License
 
-[MIT](https://github.com/ImSebb/react-native-dynamic-app-icon/blob/master/LICENSE)
+[MIT](https://github.com/ImSebb/react-native-dynamic-app-icon/blob/main/LICENSE)
