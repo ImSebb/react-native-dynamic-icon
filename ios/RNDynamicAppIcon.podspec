@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.homepage     = ""
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "author" => "lars@idearockers.com" }
+  s.author             = { "author" => "seb.attwater@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/idearockers/react-native-dynamic-app-icon.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/ImSebb/react-native-dynamic-icon.git", :tag => "main" }
   s.source_files  = "RNDynamicAppIcon/**/*.{h,m}"
   s.requires_arc = true
 
