@@ -12,9 +12,9 @@ For yarn:
 $ yarn add react-native-dynamic-icon
 ```
 
-### Adjust `info.plist` for iOS
+### Adjust info.plist for iOS
 
-Copy the following to your `info.plist` and replace the Keys and string with the corresponding keys you wish to use and filenames of the App Icons. 
+Copy the following to your `info.plist` and replace the keys and strings with the corresponding keys you wish to use and filenames of the App Icons. 
 
 ```
 <key>CFBundleIcons</key>
@@ -96,4 +96,4 @@ Returns a callback with an object containing the icon name. Example: `{iconName:
 
 ## License
 
-[MIT](https://github.com/idearockers/react-native-dynamic-app-icon/blob/master/LICENSE) © [idearockers](https://www.idearockers.com/)
+[MIT](https://github.com/ImSebb/react-native-dynamic-app-icon/blob/master/LICENSE)
