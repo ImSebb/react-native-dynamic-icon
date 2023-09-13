@@ -21,20 +21,20 @@ class RNDynamicAppIconModule extends ReactContextBaseJavaModule {
     @NonNull
     @Override
     public String getName(){
-        return REACT_CLASS
+        return REACT_CLASS;
     }
 
     @ReactMethod
     public void setAppIcon(String appIconName){
-        this.switchToAlias(appIconName);
+        this.switchToAlias(appIconName, getReactApplicationContext());
     }
 
-    private static void switchToAlias(String aliasName) {
-        Activity activity = getCurrentActivity();
+    private static void switchToAlias(String aliasName, ReactApplicationContext reactContext) {
+        Activity activity = reactContext.getCurrentActivity();
         if(activity == null) return;
         PackageManager packageManager = activity.getPackageManager();
 
-        ComponentName currentAlias = new ComponentName(activity, MainActivity.class);
+        ComponentName currentAlias = new ComponentName(activity, activity.getClass());
         packageManager.setComponentEnabledSetting(
             currentAlias,
             PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
